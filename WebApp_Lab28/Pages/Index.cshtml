@@ -1,0 +1,20 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Главная страница";
+}
+
+    <a href="#">Домой</a> | <a href ="Registration.aspx">Регистрация</a>
+    <form method="post" id="form1" runat="server">
+    <div>
+
+      <p>Введите имя пользователя</p>
+      <input type="text" placeholder="Имя пользователя" id="userName" name="userName"/>
+      <p>Введите пароль</p>
+      <input type="password" placeholder="Имя пользователя" id="userName" name="userName"/>
+
+      <input type="submit" />
+   
+    </div>
+    </form>
+
